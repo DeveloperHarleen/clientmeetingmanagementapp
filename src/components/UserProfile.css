@@ -1,0 +1,221 @@
+.user-profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Center text in the profile container */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.navigation-links {
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Adjust the gap as needed */
+  margin-bottom: 20px; /* Optional: space below the links */
+}
+
+.profile-photo {
+  margin-bottom: 20px; /* Space above the photo */
+}
+
+.profile-image {
+  width: 150px; /* Set a width for the profile image */
+  height: 150px; /* Set a height for the profile image */
+  border-radius: 50%; /* Make it round */
+  object-fit: cover; /* Cover the space without distortion */
+  border: 2px solid #007BFF; /* Optional border */
+}
+
+input[type="file"] {
+  margin-top: 10px; /* Space above the file input */
+  display: inline-block; /* Keep it inline with the text */
+  width: auto; /* Adjust width to auto */
+}
+
+.profile-info {
+  margin-bottom: 30px; /* Space between profile info and buttons */
+  font-size: 1.2em; /* Larger font size for better readability */
+}
+
+/* Add styles for the input fields */
+input[type="email"],
+input[type="text"] {
+  max-width: 300px; /* Set a max width for the input fields */
+  width: 100%; /* Make them responsive */
+  padding: 8px; /* Add some padding */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.buttons-container {
+  display: flex; /* Use flexbox for the buttons */
+  justify-content: center; /* Center buttons horizontally */
+  margin-top: 20px; /* Margin on top of the buttons */
+  gap: 10px; /* Add gap between buttons */
+}
+
+.edit-button,
+.save-button,
+.cancel-button,
+.dashboard-link,
+.logout-button {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Text color */
+  background-color: #007BFF; /* Button color */
+  padding: 8px 12px; /* Adjust padding for a more compact button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effects */
+  min-width: 80px; /* Set a minimum width */
+  max-width: 120px; /* Limit maximum width */
+  text-align: center; /* Center text in the buttons */
+}
+
+.edit-button:hover,
+.save-button:hover,
+.cancel-button:hover,
+.dashboard-link:hover,
+.logout-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.user-profile-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.profile-section {
+  margin-top: 20px;
+}
+
+.profile-section div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 5px;
+  width: 80%;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.photo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Delete Photo Button Styles */
+.delete-photo-button {
+  margin-left: 10px; /* Space between photo and button */
+  padding: 4px 6px; /* Smaller padding for compactness */
+  color: white;
+  background-color: red; /* Button color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  font-size: 12px; /* Smaller font size */
+  transition: background-color 0.3s; /* Smooth transition */
+  width: auto; /* Set width to auto to avoid elongation */
+}
+
+.delete-photo-button:hover {
+  background-color: darkred; /* Darker shade on hover */
+}
+.user-profile-container {
+  /* Add your container styles here */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center; /* Aligns input and button vertically */
+  margin-top: 10px; /* Adds spacing between image and input */
+}
+
+.file-input {
+  margin-right: 10px; /* Space between input and button */
+}
+
+.delete-photo-button {
+  /* Your button styles */
+  cursor: pointer;
+}
+
+/* Existing styles remain unchanged */
+
+.profile-section div {
+  margin-bottom: 15px;
+}
+
+/* Add this for the new fields */
+.profile-section div:last-child { /* Adjust spacing for the last child (company) */
+  margin-bottom: 30px; /* More space below the last input */
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Adjust styles for input fields */
+input[type="text"],
+input[type="email"] {
+  padding: 5px;
+  width: 80%;
+}
+
+/* Add styles for phone and company */
+input[name="phone"],
+input[name="company"] {
+  padding: 5px;
+  width: 80%; /* Adjust as necessary for responsiveness */
+}

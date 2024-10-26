@@ -1,0 +1,83 @@
+.meeting-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .schedule-meeting,
+  .meeting-list {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .schedule-meeting {
+    max-width: 400px;
+  }
+  
+  .schedule-meeting h2,
+  .meeting-list h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .people-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .people-input button {
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .meeting-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .meeting-list th,
+  .meeting-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .meeting-list img {
+    width: 20px; /* Adjust size for trashcan icon */
+    height: 20px; /* Adjust size for trashcan icon */
+  }
+  

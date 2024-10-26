@@ -1,0 +1,35 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    background-color: #007BFF; /* Navigation bar color */
+    padding: 10px 0; /* Padding for the navigation */
+}
+
+.nav-link {
+    color: white; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Space between links */
+    font-size: 1.2em; /* Font size */
+}
+
+.logout-button {
+    margin-left: 15px; /* Space before logout button */
+    padding: 10px 15px; /* Button padding */
+    background-color: #dc3545; /* Logout button color */
+    color: white; /* Text color for logout button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}

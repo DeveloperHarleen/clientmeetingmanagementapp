@@ -1,0 +1,52 @@
+/* Center container and apply uniform styling */
+.dashboard-container {
+  max-width: 600px;
+  margin: 0 auto; /* Centers the whole container */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center; /* Ensures text in the container is centered */
+}
+
+/* Style for the heading */
+.dashboard-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Style for the paragraph text */
+.dashboard-text {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Navigation styling */
+.dashboard-nav {
+  margin: 20px 0;
+}
+
+/* Ensure the navigation links are centered in a row */
+.nav-links {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  gap: 30px; /* Increase space between items */
+}
+
+/* Style for individual navigation links */
+.dashboard-link {
+  text-decoration: none; /* Remove underline */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Add padding to links */
+  background-color: #007BFF; /* Blue background */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s;
+  font-size: 1.1em; /* Increase font size for better visibility */
+}
+
+/* Hover effect for navigation links */
+.dashboard-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,63 @@
+/* src/components/ClientList.css */
+
+/* Container for the client list */
+.client-list-container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .client-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* List of clients */
+  .client-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Individual client item */
+  .client-list-container li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between; /* Space between client name and company */
+    align-items: center;
+  }
+  
+  /* Client name and company details */
+  .client-list-container li span {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Hover effect */
+  .client-list-container li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .client-list-container {
+      width: 100%; /* Full width for smaller screens */
+    }
+  
+    .client-list-container li {
+      flex-direction: column; /* Stack client name and company on smaller screens */
+      align-items: flex-start;
+    }
+  }
+  

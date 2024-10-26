@@ -1,0 +1,288 @@
+/* Container for the whole page */
+.home-container {
+    max-width: 600px; /* Limit the width for the content */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border for the container */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    text-align: center; /* Center the content */
+}
+
+/* Main title styling */
+.title {
+    text-align: center; /* Center the text */
+    font-size: 24px; /* You can adjust the font size */
+    margin: 20px 0; /* Add some margin above and below the title */
+}
+/* Ensure all input fields, including password and reset password, have consistent styling */
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%; /* Ensures all input fields, including password, take full width */
+    padding: 12px; /* Consistent padding */
+    margin-bottom: 12px; /* Space between form elements */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Ensures padding and borders don't affect the width */
+    font-size: 16px; /* Uniform font size */
+}
+
+/* Additional styling for password fields */
+input[type="password"] {
+    width: 100%; /* Ensure password fields take the full width */
+}
+
+/* Styling for all buttons */
+button {
+    padding: 12px; /* Consistent padding */
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    width: 100%; /* Full width to match the form inputs */
+    box-sizing: border-box; /* Ensures padding and borders don't affect width */
+    font-size: 16px; /* Uniform font size */
+}
+
+/* Button hover state for interactivity */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Centering the navigation links */
+.nav-container {
+    display: flex; /* Use flexbox to center items */
+    justify-content: center; /* Center horizontally */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.nav-item {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px; /* Space out navigation items */
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set the color of the links */
+    font-size: 18px; /* You can adjust the font size */
+    font-weight: bold; /* Make the text bold if desired */
+}
+
+/* Optional: Add a hover effect */
+.nav-item:hover {
+    color: #007BFF; /* Change color on hover */
+}
+
+/* Forms styling */
+.contact-form, .client-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+}
+
+/* Uniform styling for inputs and textareas */
+input, textarea {
+    padding: 12px; /* Add consistent padding */
+    margin-bottom: 12px; /* Space between form elements */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Full width for inputs */
+    box-sizing: border-box; /* Include padding and border in element's width */
+    font-size: 16px; /* Consistent font size */
+}
+
+/* Buttons styling */
+button, .nav-button {
+    padding: 12px; /* Consistent padding */
+    background-color: #007BFF; /* Blue background for buttons */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Make the buttons take up full width */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    font-size: 16px; /* Consistent font size */
+}
+
+button:hover, .nav-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Align buttons in a row (for Login and Reset Password) */
+.button-row {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: 20px; /* Add space between buttons */
+    margin-top: 20px;
+}
+
+/* Button link styles (Login and Reset Password) */
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue background for buttons */
+    color: white; /* White text */
+    text-decoration: none; /* No underline on links */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text inside the button */
+}
+
+.client-form input, .client-form textarea, .client-form select {
+    width: 100%; /* Makes all input fields take up full width of their parent container */
+    padding: 12px; /* Adds consistent padding */
+    margin: 10px 0; /* Adds spacing between inputs */
+    border: 1px solid #ccc; /* Adds a light border */
+    border-radius: 4px; /* Consistent border radius */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    font-size: 16px; /* Consistent font size for better readability */
+}
+
+/* Consistent styling for all input fields, including Password and Repeat Password */
+input, textarea {
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Ensures all fields take up the same width */
+    box-sizing: border-box; /* Ensures padding and border don't affect width */
+    font-size: 16px; /* Ensures uniform text size across inputs */
+}
+
+/* Additional rule to ensure that all password fields are the same size */
+input[type="password"] {
+    padding: 12px; /* Consistent padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Same width as other input fields */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Styling for buttons (Submit, Create Account) */
+button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width to match the form fields */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Button hover state for better interactivity */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the form container */
+.home-container {
+    max-width: 600px;
+    margin: 0 auto; /* Centers the form on the page */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+/* Ensure all input fields, including password and reset password, have consistent styling */
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%; /* Ensures all input fields, including password, take full width */
+    padding: 12px; /* Consistent padding */
+    margin-bottom: 12px; /* Space between form elements */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Ensures padding and borders don't affect the width */
+    font-size: 16px; /* Uniform font size */
+}
+
+/* Additional styling for password fields */
+input[type="password"] {
+    width: 100%; /* Ensure password fields take the full width */
+}
+
+/* Styling for all buttons */
+button {
+    padding: 12px; /* Consistent padding */
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    width: 100%; /* Full width to match the form inputs */
+    box-sizing: border-box; /* Ensures padding and borders don't affect width */
+    font-size: 16px; /* Uniform font size */
+}
+
+/* Button hover state for interactivity */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Ensure all input fields, including password and reset password, have consistent styling */
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%; /* Ensures all input fields, including password, take full width */
+    padding: 12px; /* Consistent padding */
+    margin-bottom: 12px; /* Space between form elements */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Ensures padding and borders don't affect the width */
+    font-size: 16px; /* Uniform font size */
+}
+
+/* Additional styling for password fields */
+input[type="password"] {
+    width: 100%; /* Ensure password fields take the full width */
+}
+
+/* Styling for all buttons */
+button {
+    padding: 12px; /* Consistent padding */
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    width: 100%; /* Full width to match the form inputs */
+    box-sizing: border-box; /* Ensures padding and borders don't affect width */
+    font-size: 16px; /* Uniform font size */
+}
+
+/* Button hover state for interactivity */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Ensure all input fields, including password and reset password, have consistent styling */
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%; /* Ensures all input fields, including password, take full width */
+    padding: 12px; /* Consistent padding */
+    margin-bottom: 12px; /* Space between form elements */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Ensures padding and borders don't affect the width */
+    font-size: 16px; /* Uniform font size */
+}
+
+/* Additional styling for password fields */
+input[type="password"] {
+    width: 100%; /* Ensure password fields take the full width */
+}
+
+/* Styling for all buttons */
+button {
+    padding: 12px; /* Consistent padding */
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    width: 100%; /* Full width to match the form inputs */
+    box-sizing: border-box; /* Ensures padding and borders don't affect width */
+    font-size: 16px; /* Uniform font size */
+}
+
+/* Button hover state for interactivity */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
