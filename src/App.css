@@ -1,0 +1,140 @@
+/* Global table styling */
+.main-title{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+table {
+  width: 100%;  /* Compact width for the table */
+  max-width: 800px; /* Ensure the table does not get too wide */
+  border-collapse: collapse;
+  margin: 20px auto; /* Center the table with some margin */
+  font-size: 14px;   /* Set a slightly smaller font */
+}
+
+/* Table header and cell styling */
+th, td {
+  border: 1px solid #ddd;
+  padding: 6px 10px; /* Reduced padding for a more compact layout */
+  text-align: center; /* Center the text */
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+td {
+  white-space: nowrap; /* Prevent text wrapping for concise display */
+}
+
+/* Button styling */
+button {
+  margin-left: 5px; /* Adjust or remove if not needed */
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  padding: 10px; /* Use the same padding for uniformity */
+  cursor: pointer;
+  font-size: 12px; /* Smaller font size for buttons */
+}
+
+button:hover {
+  background-color: #0056b3; /* Consistent hover effect */
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Mobile responsive styling */
+@media screen and (max-width: 768px) {
+  table {
+    width: 90%; /* Take more space on smaller screens */
+  }
+
+  th, td {
+    padding: 5px 8px; /* Further reduce padding on small screens */
+    font-size: 12px; /* Reduce font size for mobile */
+  }
+
+  button {
+    padding: 3px 6px; /* Compact buttons for mobile */
+    font-size: 10px;   /* Smaller font size for mobile */
+  }
+}
+
+.table-container {
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+/* Navigation bar styling */
+nav {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+/* Center the nav links */
+nav a {
+  margin: 0 15px; /* Add space between each nav link */
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: #007bff; /* Hover effect for links */
+}
+
+/* To ensure the navigation bar is responsive */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0; /* Stack links on mobile */
+  }
+}
+
+/* For the form container */
+form {
+  max-width: 500px; /* Set the max-width to reduce the form size */
+  margin: 0 auto;   /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Centering input fields and the button */
+input, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* Centering the table */
+table {
+  width: 60%;  /* Adjust width as necessary */
+  max-width: 800px; /* Limit max-width for large screens */
+  border-collapse: collapse;
+  margin: 20px auto; /* Center the table horizontally */
+  font-size: 14px;   /* Set a slightly smaller font */
+}
+/* src/App.css */
+
+/* Global Header Styling */
+.app-header {
+  text-align: center; /* Center the header text */
+  padding: 20px; /* Add padding */
+  background-color: #f8f9fa; /* Optional: background color */
+}
+
+/* Header Title Style */
+.app-header h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2rem; /* Font size */
+  color: #333; /* Color */
+}
